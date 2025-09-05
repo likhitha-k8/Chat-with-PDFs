@@ -27,8 +27,8 @@ Upload one or more PDFs and ask questions in natural language. The app extracts 
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/chat-with-pdfs.git
-   cd chat-with-pdfs
+   git clone https://github.com/likhitha-k8/Chat-with-PDFs
+   
 2. **Create and activate a virtual environment**
    ```bash
    python -m venv venv
@@ -36,16 +36,20 @@ Upload one or more PDFs and ask questions in natural language. The app extracts 
      venv\Scripts\activate
     # macOS/Linux
     source venv/bin/activate
+   
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
+   
 4. **Set your API key**
    Create a .env file in the root folder and add:
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+
 5. **Run the app**
    ```bash
    streamlit run app.py
    ```
+   
 6. Open in browser
    Go to http://localhost:8501
