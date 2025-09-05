@@ -33,11 +33,9 @@ Upload one or more PDFs and ask questions in natural language. The app extracts 
    ```bash
    python -m venv venv
     # Windows
-    ```bash
-     venv\Scripts\activate ```
+     venv\Scripts\activate
     # macOS/Linux
-    ``` bash
-    source venv/bin/activate```
+    source venv/bin/activate
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
