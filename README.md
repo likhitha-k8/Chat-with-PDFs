@@ -43,13 +43,14 @@ Upload one or more PDFs and ask questions in natural language. The app extracts 
    ```
    
 4. **Set your API key**
+
    Create a .env file in the root folder and add:
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 
-5. **Run the app**
+6. **Run the app**
    ```bash
    streamlit run app.py
    ```
    
-6. Open in browser
+7. Open in browser
    Go to http://localhost:8501
