@@ -45,6 +45,7 @@ Upload one or more PDFs and ask questions in natural language. The app extracts 
 4. **Set your API key**
 
    Create a .env file in the root folder and add:
+   ```bash
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 
 6. **Run the app**
